@@ -1,0 +1,87 @@
+@media only screen and (min-device-width: 992px) {    
+    [class*="col-"] {
+        width: 100%;
+    }
+    
+    .container-fluid {
+        max-width: 90% !important;
+    }
+    
+    header {
+        width: 100%;
+        padding: 0 !important;
+    }
+
+    nav {
+        padding: 0;
+        max-height: 75px;
+    }
+
+    nav .left-navbar {
+        justify-content: start;
+        padding-left: 3rem;
+    }
+    nav .right-navbar {
+        justify-content: end;
+        padding-right: 3rem;
+    }
+    .nav-link {
+        color: #6b6b6b;
+        font-weight: 600;
+    }
+    .nav-item {
+        margin: 1rem;
+    }
+
+    .banner {
+        background-image: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80px;
+        margin-top: 0px;
+        padding-top: 150px;
+        padding-bottom: 300px;
+    }
+    tablet-horizon {
+        display: none;   
+    }
+    
+    .banner h1 {
+        color: white;
+        font-size: 300%;
+        margin-top: 30px;
+        margin-bottom: 0;
+        margin-left: 80px;
+    }
+
+    .banner p {
+        color: white;
+        margin-top: 0;
+        margin-left: 80px;
+    }
+    
+    article {
+        width: 100%;
+        padding: 2rem;
+        background-color: #e4e4e4;
+    }
+
+    .image-list div {
+        padding: 0 !important;
+    }
+    
+    .img_360_width {
+        padding: 15px;
+        width: 100%;
+    }
+    
+    footer {
+        padding: 30px 30px 20px;
+        padding-bottom: 50px;
+        background-color: #F5F5F5;
+    }
+
+    footer div {
+        font-size: 15px;
+    }
+}

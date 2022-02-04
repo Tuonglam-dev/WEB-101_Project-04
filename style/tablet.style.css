@@ -1,0 +1,46 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    nav {
+        background-color: #556270;
+    }
+
+    .nav-link {
+        color: white;
+        font-size: 20px;
+    }
+
+    .container-fluid {
+        width: 100% !important;
+    }
+    .container {
+        padding-top: 2rem ;
+        padding-bottom: 2rem;
+    }
+    .banner {
+        width: 100%;
+        padding: 1rem;
+    }
+    article {
+        padding: 1rem;
+    }
+    .image-list{
+        justify-content: center;
+    }
+    .img_360_width {
+        padding: 15px;
+        max-width: 360px;
+        justify-content: center;
+    }
+    footer div {
+        margin: 1rem 0 1rem 0;
+    }
+}
